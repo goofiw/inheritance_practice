@@ -1,6 +1,7 @@
 require_relative 'amphibian'
 
 class Frog < Amphibian
+
   def initialize
   	super({can_hop: true, num_legs: 2})
   end
@@ -8,4 +9,5 @@ class Frog < Amphibian
   def speak
   	puts "ribbit"
   end
+  
 end

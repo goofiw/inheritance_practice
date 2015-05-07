@@ -13,14 +13,13 @@ class Animal
 		@has_feathers = args[:feathers] || false
 	end
 
-
 	def warm_blooded?
 		return @warm_blooded
 	end
 
 	def speak
 		raise NotImplementError,
-		    "Must define speak method in subclass"
+		  "Must define speak method in subclass"
 	end
 
 	def to_s
